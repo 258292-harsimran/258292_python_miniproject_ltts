@@ -33,29 +33,7 @@ def initial_phonebook():
                 # We do not need to check if user has entered the number because int automatically
                 # takes care of it. Int value cannot accept a blank as that counts as a string.
                 # So process automatically exits without us using the sys package.
-                  
-            #if j == 2:
-                #temp.append(str(input("Enter e-mail address: ")))
-                # Even if this field is left as blank, None will take the blank's place
-                #if temp[j] == '' or temp[j] == ' ':
-                 #   temp[j] = None
-                      
-            #if j == 3:
-              #  temp.append(str(input("Enter date of birth(dd/mm/yy): ")))
-                # Whatever format the user enters dob in, it won't make a difference to the compiler
-                # Only while searching the user will have to enter query exactly the same way as
-                # he entered during the input so as to ensure accurate searches
-               # if temp[j] == '' or temp[j] == ' ':
-                                      
-                # Even if this field is left as blank, None will take the blank's place
-                #    temp[j] = None
-            #if j == 4:
-             #   temp.append(
-              #      str(input("Enter category(Family/Friends/Work/Others): ")))
-                # Even if this field is left as blank, None will take the blank's place
-               # if temp[j] == "" or temp[j] == ' ':
-                #    temp[j] = None
-                      
+                    
         phone_book.append(temp)
         # By this step we are appending a list temp into a list phone_book
         # That means phone_book is a 2-D array and temp is a 1-D array
@@ -93,13 +71,6 @@ def add_contact(pb):
             dip.append(str(input("Enter name: ")))
         if i == 1:
             dip.append(int(input("Enter number: ")))
-        #if i == 2:
-            #dip.append(str(input("Enter e-mail address: ")))
-       # if i == 3:
-           # dip.append(str(input("Enter date of birth(dd/mm/yy): ")))
-        #if i == 4:
-            #dip.append(
-                #str(input("Enter category(Family/Friends/Work/Others): ")))
     pb.append(dip)
     # And once you modify the list, you return it to the calling function wiz main, here.
     return pb
@@ -169,34 +140,7 @@ def search_existing(pb):
                 check = i
                 temp.append(pb[i])
                   
-    #elif choice == 3:
-    # This will execute for searches based on contact's e-mail address
-        #query = str(input("Please enter the e-mail ID\
-       # of the contact you wish to search: "))
-        #for i in range(len(pb)):
-            #if query == pb[i][2]:
-                #check = i
-                #temp.append(pb[i])
-                  
-    #elif choice == 4:
-    # This will execute for searches based on contact''s date of birth
-        #query = str(input("Please enter the DOB (in dd/mm/yyyy format ONLY)\
-           # of the contact you wish to search: "))
-        #for i in range(len(pb)):
-            #if query == pb[i][3]:
-               # check = i
-               # temp.append(pb[i])
-                  
-   # elif choice == 5:
-    # This will execute for searches based on contact category
-       # query = str(
-           # input("Please enter the category of the contact you wish to search: "))
-        #for i in range(len(pb)):
-           # if query == pb[i][4]:
-               # check = i
-               # temp.append(pb[i])
-        # All contacts under query category will be shown using this feature
-          
+    
     else:
     # If the user enters any other choice then the search will be unsuccessful
         print("Invalid search criteria")

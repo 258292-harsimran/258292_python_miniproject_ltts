@@ -93,13 +93,13 @@ def add_contact(pb):
             dip.append(str(input("Enter name: ")))
         if i == 1:
             dip.append(int(input("Enter number: ")))
-        if i == 2:
-            dip.append(str(input("Enter e-mail address: ")))
-        if i == 3:
-            dip.append(str(input("Enter date of birth(dd/mm/yy): ")))
-        if i == 4:
-            dip.append(
-                str(input("Enter category(Family/Friends/Work/Others): ")))
+        #if i == 2:
+           # dip.append(str(input("Enter e-mail address: ")))
+        #if i == 3:
+           # dip.append(str(input("Enter date of birth(dd/mm/yy): ")))
+        #if i == 4:
+            #dip.append(
+               # str(input("Enter category(Family/Friends/Work/Others): ")))
     pb.append(dip)
     # And once you modify the list, you return it to the calling function wiz main, here.
     return pb
@@ -144,8 +144,7 @@ def delete_all(pb):
 def search_existing(pb):
     # This function searches for an existing contact and displays the result
     choice = int(input("Enter search criteria\n\n\
-    1. Name\n2. Number\n3. Email-id\n4. DOB\n5. Category(Family/Friends/Work/Others)\
-    \nPlease enter: "))
+    1. Name\n2. Number\n)\nPlease enter: "))
     # We're doing so just to ensure that the user experiences a customized search result
       
     temp = []
@@ -168,34 +167,6 @@ def search_existing(pb):
             if query == pb[i][1]:
                 check = i
                 temp.append(pb[i])
-                  
-    #elif choice == 3:
-    # This will execute for searches based on contact's e-mail address
-        #query = str(input("Please enter the e-mail ID\
-       # of the contact you wish to search: "))
-        #for i in range(len(pb)):
-            #if query == pb[i][2]:
-                #check = i
-                #temp.append(pb[i])
-                  
-    #elif choice == 4:
-    # This will execute for searches based on contact''s date of birth
-        #query = str(input("Please enter the DOB (in dd/mm/yyyy format ONLY)\
-           # of the contact you wish to search: "))
-        #for i in range(len(pb)):
-            #if query == pb[i][3]:
-               # check = i
-               # temp.append(pb[i])
-                  
-   # elif choice == 5:
-    # This will execute for searches based on contact category
-       # query = str(
-           # input("Please enter the category of the contact you wish to search: "))
-        #for i in range(len(pb)):
-           # if query == pb[i][4]:
-               # check = i
-               # temp.append(pb[i])
-        # All contacts under query category will be shown using this feature
           
     else:
     # If the user enters any other choice then the search will be unsuccessful
