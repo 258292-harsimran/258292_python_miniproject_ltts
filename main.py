@@ -83,6 +83,7 @@ def menu():
     choice = int(input("Please enter your choice: "))
       
     return choice
+    
   
 def add_contact(pb):
     # Adding a contact is the easiest because all you need to do is:
