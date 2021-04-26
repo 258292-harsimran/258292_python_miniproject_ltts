@@ -2,7 +2,7 @@ import sys
   
 # this function will be the first to run as soon as the main function executes
 def initial_phonebook():
-    rows, cols = int(input("Please enter initial number of contacts: ")), 5
+    rows, cols = int(input("Please enter initial number of contacts: ")),5
       
     # We are collecting the initial number of contacts the user wants to have in the
     # phonebook already. User may also enter 0 if he doesn't wish to enter any.
@@ -93,13 +93,13 @@ def add_contact(pb):
             dip.append(str(input("Enter name: ")))
         if i == 1:
             dip.append(int(input("Enter number: ")))
-        if i == 2:
-            dip.append(str(input("Enter e-mail address: ")))
-        if i == 3:
-            dip.append(str(input("Enter date of birth(dd/mm/yy): ")))
-        if i == 4:
-            dip.append(
-                str(input("Enter category(Family/Friends/Work/Others): ")))
+        #if i == 2:
+            #dip.append(str(input("Enter e-mail address: ")))
+       # if i == 3:
+           # dip.append(str(input("Enter date of birth(dd/mm/yy): ")))
+        #if i == 4:
+            #dip.append(
+                #str(input("Enter category(Family/Friends/Work/Others): ")))
     pb.append(dip)
     # And once you modify the list, you return it to the calling function wiz main, here.
     return pb
