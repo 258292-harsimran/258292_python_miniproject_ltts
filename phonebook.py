@@ -59,6 +59,7 @@ def initial_phonebook():
     contact_storing("Enter name*: "+temp_name+"\n")
     temp_number=input("Enter number*: ")
     contact_storing("Enter number*: "+temp_number+"\n\n")
+    print("Contact succesfully saved")
     
   
 def menu():
@@ -88,7 +89,7 @@ def search_existing():
         s=input()
         index=test("Enter name*: "+s)
         if(index==-1):
-            print("Name not present")
+            print("Name you are for is not present in phonebook")
         else:
             file = open("./contact.txt")
             # read the content of the file opened
@@ -98,7 +99,7 @@ def search_existing():
     elif(choice_t==2):
         print("Please enter the number")
         s=input()
-        index=test("Enter number you want to search: "+s)
+        index=test("Enter number*: "+s)
         if(index==-1):
             print("Number you are searching for is not present in phonebook")
         else:

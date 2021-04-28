@@ -7,3 +7,9 @@ Enter number*: 9316015015
 Enter name*: prabh
 Enter number*: 9780312668
 
+Enter name*: saini
+Enter number*: 1234567890
+
+Enter name*: mom
+Enter number*: 9877422400
+
