@@ -9,3 +9,9 @@ It is a program in which user can add, delete, display contacts in the text file
 SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|
 -------|---------|----------------|----------------|---------------|
 258292 | Harsimran Singh | Phonebook Directory System   | No     | No   |    
+
+
+
+### Learning Resources
+1. [w3schools](https://www.w3schools.com/python/)
+2. [tutorialspoint](https://www.tutorialspoint.com/python/index.htm)
