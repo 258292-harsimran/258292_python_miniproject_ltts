@@ -1,4 +1,4 @@
-![3delete all](https://user-images.githubusercontent.com/80378720/116598600-ac636f00-a944-11eb-8699-a752fc77ac39.png)
+
 # 258292_python_miniproject_ltts
 
 ## PHONEBOOK DIRECTORY SYSTEM
