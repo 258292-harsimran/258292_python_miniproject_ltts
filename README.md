@@ -1,3 +1,4 @@
+![3delete all](https://user-images.githubusercontent.com/80378720/116598600-ac636f00-a944-11eb-8699-a752fc77ac39.png)
 # 258292_python_miniproject_ltts
 
 ## PHONEBOOK DIRECTORY SYSTEM
@@ -10,6 +11,9 @@ It is a program in which user can add, delete, display contacts from the text fi
 
 #### ADD NEW CONTACT 
 ![addnewcontact](https://user-images.githubusercontent.com/80378720/116445932-0ba57e80-a874-11eb-8922-1f6d31477da3.png)
+
+#### DELETE ALL 
+![3delete all](https://user-images.githubusercontent.com/80378720/116598618-af5e5f80-a944-11eb-89b2-0a8974855e62.png)
 
 #### SEARCH FOR A CONTACT(using name)
 ![4search](https://user-images.githubusercontent.com/80378720/116446124-44455800-a874-11eb-9573-07dd0d42571a.png)
